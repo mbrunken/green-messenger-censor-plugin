@@ -1,0 +1,31 @@
+{
+  "name": "Whatsapp Censor",
+  "description": "Hide Whatsapp Group Messages from blacklisted contacts.",
+  "version": "1.0",
+  "author": "Marcelo Adriano Brunken",
+  "manifest_version": 3,
+  "permissions": ["activeTab","storage", "scripting"],
+  "content_scripts": [
+    {
+      "matches" : ["https://web.whatsapp.com/"],
+      "all_Frames": true,
+      "js": ["censor.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "config.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}

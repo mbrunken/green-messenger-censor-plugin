@@ -1,0 +1,18 @@
+textarea {
+    resize: vertical;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: gray 1px solid;
+    padding: 5px 10px;
+}
+textarea:focus {
+    outline-color: cadetblue;
+}
+button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
