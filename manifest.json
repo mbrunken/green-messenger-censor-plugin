@@ -1,6 +1,6 @@
 {
-  "name": "Whatsapp Censor",
-  "description": "Hide Whatsapp Group Messages from blacklisted contacts.",
+  "name": "Message Censor for Groups",
+  "description": "Hide Messages from blacklisted contacts in certain groups.",
   "version": "1.0",
   "author": "Marcelo Adriano Brunken",
   "manifest_version": 3,
